@@ -4,7 +4,7 @@
       "Cielo": "src"
     }
   },
-  "name": "developercielo/api-3.0-php",
+  "name": "leandronunes07/cielo-api-3.0-php",
   "description": "Integração com a API 3.0 da Cielo",
   "license": "MIT",
   "type": "library",
@@ -12,10 +12,33 @@
     "php": ">=5.6",
     "ext-curl": "*",
     "ext-json": "*",
-    "psr/log":"^1.1"
+    "psr/log": "^1.1"
   },
   "suggest": {
     "monolog/monolog": "Allows more advanced logging of the application flow"
   },
-  "homepage": "https://github.com/DeveloperCielo/API-3.0-PHP"
+  "homepage": "https://github.com/leandronunes07/cielo-api-3.0-php",
+  "keywords": ["cielo", "api", "payment", "ecommerce"],
+  "support": {
+    "email": "leandro@agenciataruga.com",
+    "issues": "https://github.com/leandronunes07/cielo-api-3.0-php/issues",
+    "source": "https://github.com/leandronunes07/cielo-api-3.0-php"
+  },
+  "authors": [
+    {
+      "name": "Seu Nome",
+      "email": "leandro@agenciataruga.com",
+      "homepage": "https://www.agenciataruga.com"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  }
 }
